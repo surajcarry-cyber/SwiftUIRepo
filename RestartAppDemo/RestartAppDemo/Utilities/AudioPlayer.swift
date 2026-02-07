@@ -10,6 +10,7 @@ import AVFoundation
 
 var audioPlayer : AVAudioPlayer?
 
+//Audio player function
 func playSound(sound: String, type :String){
 
     if let path = Bundle.main.path(forResource: sound, ofType: type){
