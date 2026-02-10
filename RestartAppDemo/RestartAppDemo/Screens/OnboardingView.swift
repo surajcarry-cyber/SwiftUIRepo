@@ -183,4 +183,5 @@ struct OnboardingView: View {
 
 #Preview {
     OnboardingView()
+        .previewLayout(.sizeThatFits)
 }
